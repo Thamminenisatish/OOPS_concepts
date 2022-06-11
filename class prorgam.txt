@@ -1,0 +1,27 @@
+class A
+{
+	A()   //creating constructor
+	{
+		for(int i=0;i<=10;i++)
+		{
+		
+			System.out.println(i);
+		}
+	}
+}
+class B
+{
+	B()   //creating constructor
+	{
+		Sy;
+	}
+}
+class Demo
+{
+	public static void main(String args[])
+	{
+		Sys("");
+		A a=new A();  //  creating object
+		B b=new B();
+	}
+}

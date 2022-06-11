@@ -1,0 +1,33 @@
+package com;
+
+class Bank
+{
+	void homeloan()
+	{
+		System.out.println(" 100 lines : 5 : home ");
+	}
+}
+class SBI  extends Bank
+{
+	void homeloan()
+	{
+		System.out.println(" 100 lines : 8  : home ");
+	}
+	
+}
+public class PolyDemo {
+	public static void main(String[] args) {
+		Bank b =new Bank();
+
+	}
+
+}
+//   same constructor name + muilt ple time  + diff difff paramenrt + in same class = overloding ( constructor ..!) 
+// same constructon name in child class == ober riding  // not possible 
+
+
+
+//same method  name + muilt ple time  + diff difff paramenrt + in same class = overloding ( method  ..!) 
+//method over rding me as in cild clas 
+
+// same name but  diff implementation  it is called as over riding

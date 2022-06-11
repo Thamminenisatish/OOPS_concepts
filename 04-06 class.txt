@@ -1,0 +1,49 @@
+from Thaneshwara M to All Participants:
+basics: 
+    JDK , JRE , JVM 
+    WHY 
+    when 
+    where 
+    data types 
+    operators 
+    class and Objects 
+    Oops : 
+        Inheritance 
+            single, multi  ,Hyrihy ,
+             hybrid , multiple,
+        Polymorphism 
+            compile time 
+                overloding ; 
+                    constructor over oding 
+                    method over loding 
+                    
+            run time 
+                    Ovr riding 
+                        constro : no possbil 
+                        method over loding 
+        Abstraction 
+            hiding the implemantation ,
+             by making methods abstract 
+            if mthod is abstract the my class also must abstract
+            we cant a bale to create a object 
+            the wehave to over ride in sub class 
+            
+            2 ways : 
+                abstract class : 0-100% 
+                interface  : 100% 
+        Encupulation 
+            binding the data into single unit :
+            how? 
+                make all varablis as priavet
+                using setter and getter 
+            Eception Handling : 
+                compile time : checked :
+                    FileNotFOund 
+                    SQL Exception 
+                run time  : unchecked 
+                    AE
+                    NPE
+                    AIOB
+                    NFE
+                    IME
+            Threading :

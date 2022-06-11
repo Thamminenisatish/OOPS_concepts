@@ -1,0 +1,32 @@
+//ArrayList al=new ArrayList();
+		LinkedList al=new LinkedList();
+		//HashSet al=new HashSet();
+		//Vector al=new Vector();// legacy cass , whenjva  born ,  whicj was not ore methdos 
+		//Stack al=new Stack();
+		al.add("ABCD");
+		al.add(200);
+		al.add(250);
+		al.add(500);
+		al.add(700);
+		al.add(1000);
+		al.add(true);
+		
+		Iterator i =al.iterator(); //univercel COurese  
+		
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
+		
+		System.out.println("=====List Iterator =====");
+		
+		ListIterator li=al.listIterator();
+		while (li.hasNext()) {
+			System.out.println(li.next());
+		}
+		
+	System.out.println("=== Enumaration  ===");
+		Enumeration e=al.elements();
+		while (e.hasMoreElements()) {
+			System.out.println(e.nextElement());
+			
+		}

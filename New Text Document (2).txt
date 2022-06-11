@@ -1,0 +1,49 @@
+package com;
+
+import java.util.Scanner;
+
+class Emp
+{
+	int id,age,sal;
+	String name,desig;
+	Emp()
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.print("Enter ID  : ");
+		 id=sc.nextInt();
+		
+		System.out.print("Enter Name : ");
+		 name=sc.next();
+		
+		System.out.print("Enter Age : ");
+		  age=sc.nextInt();
+		
+		System.out.print("Enter SALARY  : ");
+		  sal=sc.nextInt();
+		
+		System.out.print("Enter Desig : ");
+		 desig=sc.next();
+		
+		
+	}
+	void display()
+	{
+		System.out.println(" ID  is :"+id );
+		System.out.println("My Name  is :"+name );
+		System.out.println(" MY AGE  is :"+age  );
+		System.out.println("My Salary  is :"+sal);
+		System.out.println("My Designation  is :"+ desig);
+	}
+
+}
+public class MyProject {
+
+	public static void main(String[] args) {
+		
+			Emp e =new Emp();
+			e.display();
+			
+	}
+
+}

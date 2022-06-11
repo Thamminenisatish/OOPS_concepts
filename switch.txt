@@ -1,0 +1,134 @@
+import java.util.Scanner;
+class A
+{
+	A()
+	{	
+		
+		System.out.println("1)  English ");
+		System.out.println("2)  Hindi ");
+		System.out.println("3)  Kannada");
+		System.out.println("4)  Telgu");
+		System.out.println("5)  Marati ");
+		System.out.println("6 )  Tamil ");
+		System.out.println("7 )  Panjabi");
+
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("ENter the Option : ");
+		int ch=sc.nextInt();
+		switch(ch)
+		{
+			case 1:
+				System.out.println("English ");
+				break;
+			case 2:
+				System.out.println("Hindi ");
+				break;
+			case 3:
+				System.out.println(" Kannda ");
+				break;
+			
+			default :
+				System.out.println("not choosen any option ");
+				break;
+		}	
+	}
+}
+class Demo7
+{
+	public static void main(String args[])
+	{
+		A a =new A();	
+	}
+}
+
+============================================================
+
+package satish;
+import java.util.Scanner;
+class A
+{
+		A()
+		{
+				Scanner sc=new Scanner(System.in);
+				System.out.println("What is the capital city of India:");
+				System.out.println("1.Mumbai 2.Chennai 3.New Delhi 4.Hyderabad");
+				int ch=sc.nextInt();
+		        int count=0;
+		        switch(ch)
+		        {
+		            case 1:
+		                    System.out.println("Mumbai... is wrong");
+		                    break;
+		            case 2:
+		                    System.out.println("Chennai... is wrong");
+		                    break;
+		            case 3:
+		                    System.out.println("New Delhi... is correct");
+		                    break;
+		            case 4:
+		                    System.out.println("Hyderabad.. is wrong");
+		                    break;
+		            default:
+		                    System.out.println("Not choosen any one");
+		                    break;
+		        }
+		        if(ch==3)
+		        {
+		            //System.out.println("Your answer is correct!!!");
+		            count++;
+		        }
+		        else
+		        {
+		            System.out.println("You choosen wrong answer..");
+		        }
+		        System.out.println("Your marks is:"+count);
+		        System.out.println("What is the capital city of andhrapradesh:");
+				System.out.println("1.Amaravathi 2.Chennai 3.New Delhi 4.Hyderabad");
+				int ch1=sc.nextInt();
+		        switch(ch1)
+		        {
+		            case 1:
+		                    System.out.println("Amaravathi... is correct");
+		                    break;
+		            case 2:
+		                    System.out.println("Chennai... is wrong");
+		                    break;
+		            case 3:
+		                    System.out.println("New Delhi... is wrong");
+		                    break;
+		            case 4:
+		                    System.out.println("Hyderabad.. is wrong");
+		                    break;
+		            default:
+		                    System.out.println("Not choosen any one");
+		                    break;
+		        }
+		        if(ch1==1)
+		        {
+		            //System.out.println("Your answer is correct!!!");
+		            count++;
+		        }
+		        else
+		        {
+		            System.out.println("You choosen wrong answer..");
+		        }
+		        System.out.println("Your marks is:"+count);
+		}
+}
+
+public class Marks {
+
+	public static void main(String[] args) {
+		A a =new A();
+	}
+
+}
+
+
+
+
+
+
+
+
