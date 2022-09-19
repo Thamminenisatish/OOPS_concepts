@@ -1,0 +1,28 @@
+http://www.sharetechnote.com/
+https://www.mathworks.com/products/5g.html
+https://gloris.rohde-schwarz.com/irj/portal/interop?NavigationTarget=ROLES://portal_content/rus/core-ext/Anonymous/LogonCustomSamlRedirector&iFrameMode=true&forceLogonRedirectUrl=/ebooks/5G#page_1061
+https://www.techplayon.com/5gnr/
+https://gloris.rohde-schwarz.com/ebooks/5G
+https://www.google.com/search?q=devopedia+5g&rlz=1C1KNTJ_enIN994IN994&oq=devopedia+5g&aqs=chrome..69i57.4538j0j4&sourceid=chrome&ie=UTF-8
+
+
+
+1. How to make a gNodeb( Hardware design, software design)
+2. Complete call flow for the device to RAN ( UE & RAN and Core Network)
+3. Physical Layer Design downlink and uplink
+4.5G NR NSA and SA Complete design ( complete call flow with Layer 3 message)
+
+
+
+Q1. Preamble Sequence Generation in time domain and in frequency domain? ( https://www.sharetechnote.com/html/5G/5G_RACH.html#RACH_Sequence_Example_01)
+Q2. RACH Process for SA & NSA?
+Q3. RACH Sequence in RRC message ENDC - CBRA(Contention Based RACH)
+Q4. RACH Sequence SA - CBRA(Contention Based RACH)
+Q5. How the Harq process will work in 5G and  (https://www.sharetechnote.com/html/5G/5G_HARQ.html#Example_01)
+Q6. Harq Layer 3 Message trace log showing sequences of HARQ.
+Q7. Bandwidth generation and sequence? (https://www.sharetechnote.com/html/5G/5G_CarrrierBandwidthPart.html#Examples)
+Q8. LTE to NR Measurement ?(https://www.sharetechnote.com/html/5G/5G_LTE_Interworking.html#Measurement_Example_01)
+Q9  UE capability enquiry with layer 3 message? (https://www.sharetechnote.com/html/5G/5G_UE_Capability.html#Examples)
+Q10 . SSB pattern generation from tool box( https://www.nrexplained.com/cellsearch)
+
+
