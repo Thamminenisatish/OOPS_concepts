@@ -1,0 +1,6 @@
+ JAVA                         javaScript  ............ is both are same  ? 
+    1 ) Server                      Client 
+    2 ) prog                         Scripting 
+    3 ) compiler                     not requried to compile the code 
+    4 ) Strict                         not that much 
+    5 ) Syncchrnomus                 ASynchrnoums 
